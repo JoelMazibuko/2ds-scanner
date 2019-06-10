@@ -119,7 +119,7 @@ public class Scanner extends CordovaPlugin {
                 reuslt=  barcode2DWithSoft.open(cordova.getActivity());
 
             }
-            return reuslt;
+            return result;
         }
 
         @Override
